@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    src: url('bebas_neue.ttf') format('truetype');
+}
+/*---------------LOGIN CSS----------------------*/
+#login{
+    padding:100px;
+}
+#login-prompt{
+    width:fit-content;
+    margin:auto;
+    text-align: center;
+    background:#EDEDE6;
+    padding: 1px 50px;
+    border-radius:10px;
+}
+#login-prompt h1{
+    font-family: 'Bebas Neue';
+    color:#e8b429;
+}
+#loginf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#loginf input{
+    margin-bottom:10px;
+    padding: 5px;
+    box-shadow: none;
+    border:none;
+}
+.logout{
+    background: #EDEDE6;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    float:right;
+}
+/*---------------LOGIN CSS----------------------*/
+a:hover{
+    text-decoration: none;
+}
+
+.container-fluid{
+    padding:0;
+}
+.flex{
+    display:flex;
+    flex-direction: column;
+}
+h3{
+    color: #E8B429;
+    font-family: 'Bebas Neue';
+}
+h2{
+    text-align: center;
+    font-family: 'Bebas Neue';
+}
+p{
+    width:fit-content;
+    display:inline-block;
+}
+tbody tr td:first-child{
+    text-align: center;
+}
+.dlt{
+    width: 62px;
+    background: url(/images/delete.png)center no-repeat;
+    float:left;
+    cursor:pointer;
+}
+.dlt:hover{
+    background: #eee url(/images/delete.png)center no-repeat;
+}
+.eye{
+    width: 62px;
+    background: url(/images/eye.png)center no-repeat;
+    float:left;
+    cursor:pointer;
+}
+.eye:hover{
+    background: #eee url(/images/eye.png)center no-repeat;
+}
+.barrow{
+    width: 62px;
+    background: url(/images/back-arrow.png)center no-repeat;
+    float:left;
+    cursor:pointer;
+}
+.barrow:hover{
+    background: #eee url(/images/back-arrow.png)center no-repeat;
+}
+.nacrt{
+    width: 62px;
+    background: url(/images/nacrt.png)center no-repeat;
+    float:left;
+    cursor:pointer;
+}
+.nacrt:hover{
+    background: #eee url(/images/nacrt.png)center no-repeat;
+}
+.add{
+    width: 47px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.add:hover{
+    background: #eee;
+}
+.arrow{
+    margin-left:10px;
+}
+.asc:hover, .arrow:hover{
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    cursor: pointer;
+}
+.title, .text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.active{
+    color:grey;
+    cursor: default !important;
+}
+.active:hover{
+    text-decoration: none;
+}
+.page, .prev, .next{
+    cursor: pointer;
+    font-size:18px;
+}
+.prev{
+    margin-right:10px;
+}
+.page{
+    margin-right:5px;
+}
+.title{
+    max-width:100px;
+}
+.text{
+    max-width:500px;
+}
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+.controls{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+  /* Zebra striping */
+
+  tr:nth-of-type(odd) { 
+    background: #eee; 
+  }
+  th { 
+    background: #333; 
+    color: white; 
+    font-weight: bold; 
+  }
+  td, th { 
+    padding: 6px; 
+    border: 1px solid #ccc; 
+    text-align: left; 
+  }
+  /*EDIT PAGE CSS*/
+  .buttons{
+    height: 35px;
+    margin-top: 10px;
+    display:flex;
+    justify-content:center;
+  }
+  .gogop{
+      float:left;
+      margin-left:10px;
+  }
+  .buttons .add{
+      margin-left: 0;
+  }
+.container-edit{
+    width: 80%;
+    padding: 30px 30px 0px;
+    border-radius: 10px;
+}
+.container-img{
+    width:20%;
+    text-align: center;
+    padding:30px;
+}
+
+  #save, .galerija-link{
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-appearance: none;
+    background: #86DCFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+#save{
+    width: 20%;
+}
+.galerija-link{
+    width:fit-content;
+}
+.small-container{
+    background: #fff;
+    border-radius: 10px;
+    padding:10px;
+}
+  .edit-box input, .edit-box textarea{
+    width:100%;
+  }
+  .edit-box label{
+      width:15%;
+      font-family: 'Bebas neue';
+      font-size: 21px;
+      color: #E8B429;
+  
+  }
+  .edit-box{
+      display:flex;
+      flex-direction:row;
+      margin-bottom:30px;
+  }
+  .edit-box input{
+      border-width:1px;
+  }
+  .bgg{
+      background:#EDEDE6;
+      padding-bottom:20px;
+      display:flex;
+      flex-wrap:wrap;
+  }
+/*PONUDA*/
+  .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    justify-content:center;
+    display:flex;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border-bottom:1px solid #ccc;
+    border-left:1px solid #ccc;
+    border-right: none;
+    border-top: none;
+    background:#EDEDE6;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+.fill{
+    width:50%;
+    height:49px;
+    border-bottom:1px solid #ccc;
+    background:#EDEDE6;
+}
+
+.tabcontent h3{
+    text-align:center;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    border-bottom:none;
+    background:#fff;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+  @media 
+  only screen and (max-width: 760px){
+      .text{
+          max-width:100px;
+      }
+  }
+  
+  
+  /*,
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+  
+       Force table to not be like tables anymore 
+      table, thead, tbody, th, td, tr { 
+          display: block; 
+      }
+      
+      /* Hide table headers (but not display: none;, for accessibility) 
+      thead tr { 
+          position: absolute;
+          top: -9999px;
+          left: -9999px;
+      }
+      
+      tr { border: 1px solid #ccc; }
+      
+      td { 
+          /* Behave  like a "row" 
+          border: none;
+          border-bottom: 1px solid #eee; 
+          position: relative;
+          text-align: center;
+      }
+      
+      td:before { 
+          /* Now like a table header 
+          position: absolute;
+          /* Top/left values mimic padding 
+          top: 6px;
+          left: 6px;
+          width: 45%; 
+          padding-right: 10px; 
+          white-space: nowrap;
+      }
+      .title, .text{
+          max-width:100%;
+      }
+    }*/
+      
